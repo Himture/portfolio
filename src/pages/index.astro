@@ -9,15 +9,17 @@
 		<meta name="generator" content={Astro.generator} />
 		<title>Himture</title>
 	</head>
-	<body>
-		<h1>Hi I am</h1>
-		<div class="relative group">
-			<span class="absolute inset-0 z-10 text-transparent group-hover:text-black">
-			  Himanshu Agarwal
-			</span>
-			<span class="relative z-20 text-black group-hover:hidden">
-			  himture
-			</span>
-		  </div>
+	<body class="bg-[url('/BGRain.gif')]">
+		<div class="h-screen flex flex-col justify-center items-center">
+			<div class="flex justify-center items-center">
+				<div class="mx-5 h-32 w-32 rounded-full border-4 border-gradient-t from-blue-400 via-purple-400 to-pink-500 border-transparent overflow-hidden">
+					<img src="/ProfilePicture.jpg" alt="Profile Image" class="w-full h-full object-cover">
+				  </div>
+				<div>
+					<div class="mb-0 p-0 text-6xl bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 text-transparent animate-pulse" style="-webkit-background-clip: text">Hi I am</div>
+					<div class="mt-0 p-0 text-7xl bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 text-transparent animate-pulse" style="-webkit-background-clip: text">himture</div>
+				</div>
+			</div>
+		</div>
 	</body>
 </html>
